@@ -1,0 +1,23 @@
+name: project_env
+channels:
+  - defaults
+  - conda-forge
+  - ostrokach-forge
+  - pkgw-forge
+dependencies:
+  - python=3.7
+  - pip=19.0.*
+  - pip:
+    - '--editable=.'
+    - jupyter
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - numpy
+    - scipy
+    - pandas
+    - networkx
+    - powerlaw    
+    - random
+    - math
+    - collections    
