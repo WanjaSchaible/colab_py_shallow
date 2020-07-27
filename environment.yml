@@ -18,6 +18,5 @@ dependencies:
     - pandas
     - networkx
     - powerlaw    
-    - random
-    - math
-    - collections    
+    # - math
+    # - collections    
